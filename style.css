@@ -24,9 +24,9 @@ body {
 }
 
 header {
-    padding-bottom: 15%;
-    margin-bottom: 5vmin;
-    margin-top: 15%;
+    padding-bottom: 7%;
+    margin-bottom: 2vmin;
+    margin-top: 10%;
     border-bottom: solid black 1px;
     margin-left: 0%;
     margin-right: 0%;
@@ -60,7 +60,8 @@ a:hover {
 }
 
 .context {
-    padding: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
     text-align: left;
     font-size: 3vmin;
     display: flex;
