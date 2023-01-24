@@ -470,19 +470,14 @@
         </p>
     </div>
     <script type="text/javascript">
-        var _gauges = _gauges || [];
-        (function () {
-            var t = document.createElement('script');
-            t.type = 'text/javascript';
-            t.async = true;
-            t.id = 'gauges-tracker';
-            t.setAttribute('data-site-id', '63c27648a9d2446919ef9af7');
-            t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
-            t.src = 'https://d2fuc4clr7gvcn.cloudfront.net/track.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(t, s);
-        })();
-    </script>
+(function(apiKey){
+    (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=o._q||[];
+    v=['initialize','identify','updateOptions','pageLoad','track'];for(w=0,x=v.length;w<x;++w)(function(m){
+        o[m]=o[m]||function(){o._q[m===v[0]?'unshift':'push']([m].concat([].slice.call(arguments,0)));};})(v[w]);
+        y=e.createElement(n);y.async=!0;y.src='https://cdn.pendo.io/agent/static/'+apiKey+'/pendo.js';
+        z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');
+})('7445c219-d60a-46b3-4744-b13b8026df79');
+</script>
 </body>
 
 </html>
